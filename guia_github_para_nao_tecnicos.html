@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guia GitHub para Não Técnicos - LexLeilão</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .guide-container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+        }
+        
+        .guide-container h1, .guide-container h2, .guide-container h3 {
+            color: #1E2130;
+        }
+        
+        .guide-container h1 {
+            font-size: 2rem;
+            margin-bottom: 1.5rem;
+            border-bottom: 2px solid #4B89DC;
+            padding-bottom: 0.5rem;
+        }
+        
+        .guide-container h2 {
+            font-size: 1.5rem;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+        }
+        
+        .guide-container h3 {
+            font-size: 1.2rem;
+            margin-top: 1.5rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        .guide-container p, .guide-container li {
+            margin-bottom: 1rem;
+            line-height: 1.7;
+        }
+        
+        .guide-container ul, .guide-container ol {
+            margin-left: 2rem;
+            margin-bottom: 1.5rem;
+        }
+        
+        .guide-container code {
+            background-color: #f5f5f5;
+            padding: 0.2rem 0.4rem;
+            border-radius: 3px;
+            font-family: monospace;
+        }
+        
+        .guide-container a {
+            color: #4B89DC;
+            text-decoration: none;
+        }
+        
+        .guide-container a:hover {
+            text-decoration: underline;
+        }
+        
+        .guide-container hr {
+            margin: 2rem 0;
+            border: none;
+            border-top: 1px solid #eee;
+        }
+        
+        .guide-container .tip {
+            background-color: #E8F4FD;
+            border-left: 4px solid #4B89DC;
+            padding: 1rem;
+            margin: 1.5rem 0;
+            border-radius: 0 4px 4px 0;
+        }
+        
+        .back-link {
+            display: inline-block;
+            margin-top: 2rem;
+            color: #4B89DC;
+            text-decoration: none;
+        }
+        
+        .back-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <h1>LexLeilão</h1>
+        </div>
+        <nav class="nav">
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="index.html#planos">Planos</a></li>
+                <li><a href="#" class="active">Guia GitHub</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="guide-container">
+        <h1>Guia GitHub para Não Técnicos</h1>
+        
+        <p>Este guia foi criado para ajudar pessoas sem conhecimento técnico a utilizar o GitHub para hospedar e gerenciar o site institucional da LexLeilão.</p>
+        
+        <h2>O que é o GitHub?</h2>
+        
+        <p>O GitHub é uma plataforma que permite armazenar, gerenciar e compartilhar código. Também oferece hospedagem gratuita para sites estáticos através do GitHub Pages.</p>
+        
+        <h2>Passo a Passo para Publicar o Site da LexLeilão</h2>
+        
+        <h3>1. Criar uma Conta no GitHub</h3>
+        
+        <ol>
+            <li>Acesse <a href="https://github.com" target="_blank">github.com</a></li>
+            <li>Clique em "Sign up" (Cadastrar-se)</li>
+            <li>Preencha seu e-mail, crie uma senha e escolha um nome de usuário</li>
+            <li>Siga as instruções para verificar sua conta</li>
+        </ol>
+        
+        <h3>2. Criar um Novo Repositório</h3>
+        
+        <ol>
+            <li>Após fazer login, clique no botão "+" no canto superior direito</li>
+            <li>Selecione "New repository" (Novo repositório)</li>
+            <li>Nomeie o repositório como "lexleilao.github.io" (substitua "lexleilao" pelo seu nome de usuário)</li>
+            <li>Adicione uma descrição: "Site institucional da LexLeilão"</li>
+            <li>Mantenha a opção "Public" (Público) selecionada</li>
+            <li>Marque a opção "Add a README file" (Adicionar um arquivo README)</li>
+            <li>Clique em "Create repository" (Criar repositório)</li>
+        </ol>
+        
+        <h3>3. Fazer Upload dos Arquivos do Site</h3>
+        
+        <ol>
+            <li>No seu repositório, clique no botão "Add file" (Adicionar arquivo)</li>
+            <li>Selecione "Upload files" (Enviar arquivos)</li>
+            <li>Arraste todos os arquivos da pasta do site para a área de upload
+                <ul>
+                    <li>index.html</li>
+                    <li>styles.css</li>
+                    <li>guia_github_para_nao_tecnicos.html</li>
+                    <li>guia_github_para_nao_tecnicos.md</li>
+                    <li>pasta images (se houver)</li>
+                </ul>
+            </li>
+            <li>Adicione uma mensagem de commit: "Upload inicial do site institucional"</li>
+            <li>Clique em "Commit changes" (Confirmar alterações)</li>
+        </ol>
+        
+        <h3>4. Ativar o GitHub Pages</h3>
+        
+        <ol>
+            <li>No seu repositório, clique na aba "Settings" (Configurações)</li>
+            <li>No menu lateral esquerdo, clique em "Pages" (Páginas)</li>
+            <li>Em "Source" (Fonte), selecione "main" (principal) no dropdown</li>
+            <li>Selecione "/ (root)" como pasta</li>
+            <li>Clique em "Save" (Salvar)</li>
+            <li>Aguarde alguns minutos - o GitHub mostrará uma mensagem com a URL onde seu site está publicado</li>
+        </ol>
+        
+        <h3>5. Configurar Domínio Personalizado (Opcional)</h3>
+        
+        <ol>
+            <li>Ainda na seção GitHub Pages, digite seu domínio (ex: "lexleilao.com") no campo "Custom domain" (Domínio personalizado)</li>
+            <li>Clique em "Save" (Salvar)</li>
+            <li>Siga as instruções para configurar os registros DNS no seu provedor de domínio</li>
+        </ol>
+        
+        <h2>Como Editar o Site</h2>
+        
+        <h3>Editar Arquivos Diretamente no GitHub</h3>
+        
+        <ol>
+            <li>Navegue até o arquivo que deseja editar no seu repositório</li>
+            <li>Clique no ícone de lápis (Editar) no canto superior direito do arquivo</li>
+            <li>Faça suas alterações no editor</li>
+            <li>Adicione uma mensagem de commit descrevendo suas alterações</li>
+            <li>Clique em "Commit changes" (Confirmar alterações)</li>
+        </ol>
+        
+        <h3>Editar Preços e Planos</h3>
+        
+        <p>Para editar os preços e planos no site:</p>
+        
+        <ol>
+            <li>Navegue até o arquivo <code>index.html</code> no seu repositório</li>
+            <li>Clique no ícone de lápis para editar</li>
+            <li>Localize a seção com id "planos" (use Ctrl+F e pesquise por "planos")</li>
+            <li>Modifique os valores de preço nas tags <code>&lt;span class="price monthly"&gt;</code> e <code>&lt;span class="price annual"&gt;</code></li>
+            <li>Modifique as descrições e recursos conforme necessário</li>
+            <li>Adicione uma mensagem de commit descrevendo suas alterações</li>
+            <li>Clique em "Commit changes" (Confirmar alterações)</li>
+        </ol>
+        
+        <div class="tip">
+            <strong>Dica:</strong> Para facilitar a edição, você pode baixar os arquivos, editá-los em um editor de texto como o Notepad++ ou Visual Studio Code, e depois fazer upload novamente.
+        </div>
+        
+        <h2>Dicas Importantes</h2>
+        
+        <ul>
+            <li><strong>Sempre faça backup</strong> antes de editar arquivos importantes</li>
+            <li><strong>Teste as alterações</strong> acessando seu site após cada modificação</li>
+            <li><strong>Seja paciente</strong> - as alterações podem levar alguns minutos para aparecer no site publicado</li>
+            <li><strong>Use mensagens de commit descritivas</strong> para manter um histórico claro das alterações</li>
+        </ul>
+        
+        <h2>Precisa de Ajuda?</h2>
+        
+        <p>Se você encontrar dificuldades, considere:</p>
+        
+        <ol>
+            <li>Consultar a <a href="https://docs.github.com/pt/pages" target="_blank">documentação oficial do GitHub Pages</a></li>
+            <li>Pedir ajuda a um colega com conhecimento técnico</li>
+            <li>Contratar um profissional para fazer alterações mais complexas</li>
+        </ol>
+        
+        <hr>
+        
+        <p>Este guia foi criado como parte do projeto LexLeilão - A Disney dos Leilões Imobiliários.</p>
+        
+        <a href="index.html" class="back-link">← Voltar para a página inicial</a>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <h2>LexLeilão</h2>
+                <p>A Disney dos Leilões Imobiliários</p>
+            </div>
+            <div class="footer-links">
+                <div class="footer-column">
+                    <h3>Plataforma</h3>
+                    <ul>
+                        <li><a href="index.html#features">Módulos</a></li>
+                        <li><a href="index.html#planos">Planos</a></li>
+                        <li><a href="#">Para Leiloeiros</a></li>
+                        <li><a href="#">Para Investidores</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Recursos</h3>
+                    <ul>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Guias</a></li>
+                        <li><a href="#">Webinars</a></li>
+                        <li><a href="#">Suporte</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Empresa</h3>
+                    <ul>
+                        <li><a href="#">Sobre nós</a></li>
+                        <li><a href="#">Contato</a></li>
+                        <li><a href="#">Carreiras</a></li>
+                        <li><a href="#">Imprensa</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 LexLeilão - Todos os direitos reservados</p>
+            <div class="footer-legal">
+                <a href="#">Termos de Uso</a>
+                <a href="#">Política de Privacidade</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
