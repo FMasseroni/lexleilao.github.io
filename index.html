@@ -1,323 +1,62 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LexLeilão - A Disney dos Leilões Imobiliários</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LexLeilão - A Plataforma Mágica de Leilões Imobiliários</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 2rem auto;
+      max-width: 800px;
+      padding: 0 20px;
+      line-height: 1.6;
+      color: #2c2c2c;
+    }
+    h1, h2 {
+      color: #3b0073;
+    }
+    ul {
+      padding-left: 1.2em;
+    }
+    a {
+      display: inline-block;
+      margin-top: 1rem;
+      color: #ffffff;
+      background-color: #3b0073;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 6px;
+    }
+    a:hover {
+      background-color: #5900b3;
+    }
+    footer {
+      margin-top: 4rem;
+      text-align: center;
+      font-size: 0.9rem;
+      color: #666;
+    }
+  </style>
 </head>
 <body>
-    <header class="header">
-        <div class="logo">
-            <h1>LexLeilão</h1>
-        </div>
-        <nav class="nav">
-            <ul>
-                <li><a href="#" class="active">Início</a></li>
-                <li><a href="#planos">Planos</a></li>
-                <li><a href="guia_github_para_nao_tecnicos.html">Guia GitHub</a></li>
-            </ul>
-        </nav>
-    </header>
+  <h1>Bem-vindo à LexLeilão</h1>
+  <p>Transformamos o mercado de leilões com tecnologia, inteligência e encantamento. Uma nova era para investidores, com apoio humano, IA e automação real.</p>
 
-    <section class="hero">
-        <h2>A Disney dos Leilões Imobiliários</h2>
-        <p>Uma plataforma revolucionária que transforma a experiência de investimento em leilões imobiliários, combinando inteligência artificial, blockchain e uma experiência de usuário encantadora.</p>
-        <a href="#features" class="btn">Conheça os Módulos</a>
-    </section>
+  <h2>🌟 Framework LEIA</h2>
+  <p>A LexLeilão é construída sobre o <strong>framework LEIA</strong>, que reúne quatro pilares fundamentais:</p>
+  <ul>
+    <li><strong>L – Luxo de Experiência:</strong> Navegação fluida, intuitiva e encantadora.</li>
+    <li><strong>E – Excelência em Inteligência:</strong> LEXAI, análises jurídicas e simuladores econômicos.</li>
+    <li><strong>I – Infraestrutura Infalível:</strong> Plataforma estável, segura e escalável.</li>
+    <li><strong>A – Arte Visual Integrada:</strong> Design moderno, emocional e interativo.</li>
+  </ul>
 
-    <section id="features" class="features">
-        <div class="section-title">
-            <h2>Módulos Principais</h2>
-            <p>A plataforma LexLeilão oferece um conjunto completo de módulos para todas as etapas do processo de investimento em leilões imobiliários.</p>
-        </div>
-        
-        <div class="features-grid">
-            <div class="feature-card">
-                <div class="feature-icon">📋</div>
-                <h3>Cadastro e Importação de Imóveis</h3>
-                <p>Importe automaticamente dados de imóveis via URL de sites de leilão ou cadastre manualmente com nossa interface intuitiva.</p>
-            </div>
-            
-            <div class="feature-card">
-                <div class="feature-icon">⚖️</div>
-                <h3>Análise Jurídica e Financeira</h3>
-                <p>Nossa inteligência artificial LEXAI analisa editais, extrai riscos jurídicos e calcula a viabilidade econômica de cada oportunidade.</p>
-            </div>
-            
-            <div class="feature-card">
-                <div class="feature-icon">💰</div>
-                <h3>Simulador de Lucro</h3>
-                <p>Calcule automaticamente valores, custos e potencial de lucro para tomar decisões de investimento informadas.</p>
-            </div>
-            
-            <div class="feature-card">
-                <div class="feature-icon">✅</div>
-                <h3>Checklists por Fase</h3>
-                <p>Acompanhe cada etapa do processo com checklists detalhados e lembretes automáticos para não perder nenhum prazo.</p>
-            </div>
-            
-            <div class="feature-card">
-                <div class="feature-icon">🔍</div>
-                <h3>Painel de Leilões do Dia</h3>
-                <p>Visualize todas as oportunidades disponíveis com filtros avançados para encontrar exatamente o que você procura.</p>
-            </div>
-            
-            <div class="feature-card">
-                <div class="feature-icon">🏢</div>
-                <h3>Gestão Patrimonial</h3>
-                <p>Gerencie seu portfólio de imóveis arrematados com métricas de desempenho e visualização de valorização.</p>
-            </div>
-        </div>
-    </section>
+  <a href="/pre_cadastro">🚀 Acesse o Pré-Cadastro</a>
+  <a href="/mvp">📱 Ver MVP da Plataforma</a>
 
-    <section id="planos" class="pricing">
-        <div class="section-title">
-            <h2>Planos e Preços</h2>
-            <p>Escolha o plano ideal para suas necessidades de investimento em leilões imobiliários. Do primeiro imóvel ao portfólio completo, temos a solução perfeita para você.</p>
-        </div>
-        
-        <div class="pricing-toggle">
-            <span>Mensal</span>
-            <label class="switch">
-                <input type="checkbox" id="billing-toggle">
-                <span class="slider round"></span>
-            </label>
-            <span>Anual <span class="discount">Economize 2 meses!</span></span>
-        </div>
-        
-        <div class="pricing-grid">
-            <div class="pricing-card mcmv">
-                <div class="pricing-header">
-                    <h3>Plano MCMV</h3>
-                    <p class="pricing-subtitle">Para seu primeiro imóvel</p>
-                    <div class="pricing-price">
-                        <span class="price monthly">R$ 5</span>
-                        <span class="price annual">R$ 50</span>
-                        <span class="period">/mês</span>
-                    </div>
-                    <p class="pricing-description">Ideal para quem busca seu primeiro imóvel pelo programa Minha Casa Minha Vida</p>
-                </div>
-                <div class="pricing-features">
-                    <ul>
-                        <li>Acesso a leilões MCMV</li>
-                        <li>Análise jurídica básica</li>
-                        <li>Alertas de oportunidades</li>
-                        <li>Simulador básico</li>
-                        <li>Suporte por e-mail</li>
-                    </ul>
-                </div>
-                <div class="pricing-cta">
-                    <a href="#" class="btn-pricing">Começar Agora</a>
-                    <p class="pricing-note">Gratuito até sua primeira aquisição</p>
-                </div>
-                <div class="pricing-badge">Popular</div>
-            </div>
-            
-            <div class="pricing-card basic">
-                <div class="pricing-header">
-                    <h3>Plano Magia</h3>
-                    <p class="pricing-subtitle">Para investidores iniciantes</p>
-                    <div class="pricing-price">
-                        <span class="price monthly">R$ 99</span>
-                        <span class="price annual">R$ 990</span>
-                        <span class="period">/mês</span>
-                    </div>
-                    <p class="pricing-description">Perfeito para quem está começando a investir em leilões imobiliários</p>
-                </div>
-                <div class="pricing-features">
-                    <ul>
-                        <li>Acesso a todos os leilões</li>
-                        <li>Análise jurídica completa</li>
-                        <li>Simulador de lucro</li>
-                        <li>Checklists básicos</li>
-                        <li>Suporte por chat</li>
-                        <li>1 análise LEXAI por mês</li>
-                    </ul>
-                </div>
-                <div class="pricing-cta">
-                    <a href="#" class="btn-pricing">Assinar Agora</a>
-                </div>
-            </div>
-            
-            <div class="pricing-card pro">
-                <div class="pricing-header">
-                    <h3>Plano Encanto</h3>
-                    <p class="pricing-subtitle">Para investidores ativos</p>
-                    <div class="pricing-price">
-                        <span class="price monthly">R$ 249</span>
-                        <span class="price annual">R$ 2.490</span>
-                        <span class="period">/mês</span>
-                    </div>
-                    <p class="pricing-description">Ideal para investidores que buscam múltiplas oportunidades</p>
-                </div>
-                <div class="pricing-features">
-                    <ul>
-                        <li>Tudo do Plano Magia</li>
-                        <li>Análise avançada de riscos</li>
-                        <li>Checklists completos</li>
-                        <li>Gestão patrimonial</li>
-                        <li>Suporte prioritário</li>
-                        <li>10 análises LEXAI por mês</li>
-                        <li>Acesso antecipado a leilões</li>
-                    </ul>
-                </div>
-                <div class="pricing-cta">
-                    <a href="#" class="btn-pricing">Assinar Agora</a>
-                </div>
-            </div>
-            
-            <div class="pricing-card enterprise">
-                <div class="pricing-header">
-                    <h3>Plano Imagineer</h3>
-                    <p class="pricing-subtitle">Para investidores profissionais</p>
-                    <div class="pricing-price">
-                        <span class="price monthly">R$ 499</span>
-                        <span class="price annual">R$ 4.990</span>
-                        <span class="period">/mês</span>
-                    </div>
-                    <p class="pricing-description">Solução completa para escritórios e investidores de alto volume</p>
-                </div>
-                <div class="pricing-features">
-                    <ul>
-                        <li>Tudo do Plano Encanto</li>
-                        <li>Análises LEXAI ilimitadas</li>
-                        <li>API para integração</li>
-                        <li>Painel do Comandante</li>
-                        <li>Suporte 24/7 dedicado</li>
-                        <li>Consultoria estratégica</li>
-                        <li>Acesso ao clube de fundadores</li>
-                    </ul>
-                </div>
-                <div class="pricing-cta">
-                    <a href="#" class="btn-pricing">Contato Personalizado</a>
-                </div>
-                <div class="pricing-badge">Completo</div>
-            </div>
-        </div>
-        
-        <div class="pricing-founder">
-            <div class="founder-card">
-                <h3>Plano Vitalício para Fundadores</h3>
-                <p>Seja um dos 100 primeiros fundadores e garanta acesso vitalício à plataforma com preço único.</p>
-                <div class="founder-price">
-                    <span class="price">R$ 9.990</span>
-                    <span class="period">pagamento único</span>
-                </div>
-                <ul class="founder-features">
-                    <li>Acesso vitalício ao Plano Imagineer</li>
-                    <li>Upgrades gratuitos para sempre</li>
-                    <li>Participação nos lucros da plataforma</li>
-                    <li>Acesso a eventos exclusivos</li>
-                    <li>Consultoria personalizada</li>
-                </ul>
-                <div class="founder-cta">
-                    <a href="#" class="btn-founder">Tornar-se Fundador</a>
-                    <p class="founder-spots">Restam apenas <span class="spots-left">37</span> vagas</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="framework">
-        <div class="section-title">
-            <h2>Framework LEIA</h2>
-            <p>A LexLeilão é construída sobre o framework LEIA, que combina o melhor de quatro gigantes da tecnologia e experiência em uma solução única.</p>
-        </div>
-        
-        <div class="framework-grid">
-            <div class="framework-card luxo">
-                <h3>Luxo de Experiência</h3>
-                <p>Inspirado na Disney, criamos uma experiência encantadora e emocionalmente envolvente para os usuários.</p>
-            </div>
-            
-            <div class="framework-card excelencia">
-                <h3>Excelência em Inteligência</h3>
-                <p>Como o Google, oferecemos inteligência artificial avançada para análise de dados e tomada de decisões.</p>
-            </div>
-            
-            <div class="framework-card infraestrutura">
-                <h3>Infraestrutura Infalível</h3>
-                <p>Seguindo o modelo da Amazon, nossa plataforma é confiável, automatizada e sempre disponível.</p>
-            </div>
-            
-            <div class="framework-card arte">
-                <h3>Arte Visual Integrada</h3>
-                <p>Com a elegância da Apple, criamos uma experiência visual premium e intuitiva em todos os dispositivos.</p>
-            </div>
-        </div>
-    </section>
-
-    <section class="cta">
-        <h2>Pronto para revolucionar seus investimentos em leilões?</h2>
-        <p>A LexLeilão está transformando o mercado de leilões imobiliários com tecnologia avançada e uma experiência encantadora.</p>
-        <div class="cta-buttons">
-            <a href="#planos" class="btn">Ver Planos</a>
-            <a href="guia_github_para_nao_tecnicos.html" class="btn-secondary">Acessar Guia GitHub</a>
-        </div>
-    </section>
-
-    <footer class="footer">
-        <div class="footer-content">
-            <div class="footer-logo">
-                <h2>LexLeilão</h2>
-                <p>A Disney dos Leilões Imobiliários</p>
-            </div>
-            <div class="footer-links">
-                <div class="footer-column">
-                    <h3>Plataforma</h3>
-                    <ul>
-                        <li><a href="#features">Módulos</a></li>
-                        <li><a href="#planos">Planos</a></li>
-                        <li><a href="#">Para Leiloeiros</a></li>
-                        <li><a href="#">Para Investidores</a></li>
-                    </ul>
-                </div>
-                <div class="footer-column">
-                    <h3>Recursos</h3>
-                    <ul>
-                        <li><a href="#">Blog</a></li>
-                        <li><a href="#">Guias</a></li>
-                        <li><a href="#">Webinars</a></li>
-                        <li><a href="#">Suporte</a></li>
-                    </ul>
-                </div>
-                <div class="footer-column">
-                    <h3>Empresa</h3>
-                    <ul>
-                        <li><a href="#">Sobre nós</a></li>
-                        <li><a href="#">Contato</a></li>
-                        <li><a href="#">Carreiras</a></li>
-                        <li><a href="#">Imprensa</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <div class="footer-bottom">
-            <p>&copy; 2025 LexLeilão - Todos os direitos reservados</p>
-            <div class="footer-legal">
-                <a href="#">Termos de Uso</a>
-                <a href="#">Política de Privacidade</a>
-            </div>
-        </div>
-    </footer>
-
-    <script>
-        // Script para alternar entre preços mensais e anuais
-        document.addEventListener('DOMContentLoaded', function() {
-            const billingToggle = document.getElementById('billing-toggle');
-            const pricingCards = document.querySelectorAll('.pricing-card');
-            
-            billingToggle.addEventListener('change', function() {
-                pricingCards.forEach(card => {
-                    if (this.checked) {
-                        card.classList.add('annual');
-                    } else {
-                        card.classList.remove('annual');
-                    }
-                });
-            });
-        });
-    </script>
+  <footer>
+    <p>LexLeilão — A Plataforma Mais Encantadora de Leilões do Brasil</p>
+  </footer>
 </body>
 </html>
