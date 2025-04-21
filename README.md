@@ -1,2 +1,2 @@
 # lexleilao.github.io
-Site institucional da LexLeilão - A Disney dos Leilões Imobiliári
+Site institucional da LexLeilão - A Disney dos Leilões Imobiliários
